@@ -1,0 +1,178 @@
+{
+    "intents": [
+      {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+      "context_set": ""
+     },
+     {"tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+     },
+     {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+     },
+     {"tag": "hours",
+      "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+      "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+     },
+     {"tag": "mopeds",
+      "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
+      "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
+     },
+     {"tag": "payments",
+      "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+      "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+     },
+     {"tag": "opentoday",
+      "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+      "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+     },
+     {"tag": "rental",
+      "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
+      "responses": ["Are you looking to rent today or later this week?"],
+      "context_set": "rentalday"
+     },
+     {"tag": "today",
+      "patterns": ["today"],
+      "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
+      "context_filter": "rentalday"
+     },
+     {  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What are methods without scientific evidence or myths?",
+              "responses": [ "They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What are modern methods?",
+              "responses": [ "What are modern methods?" ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "At what age can a woman get pregnant?",
+              "responses": [ "From the moment she has her first ovulation, which occurs before her first period. Therefore, if a woman has unprotected intercourse, even without her first period, she can get pregnant." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "If a man ejaculates at the entrance of the vagina, can a woman get pregnant?",
+              "responses": [ "Yes, there is a possibility of pregnancy because even if the ejaculate has stayed at the entrance of the vagina, some sperm can reach the egg." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What are methods without scientific evidence or myths?",
+              "responses": [ "They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Is giving birth to a woman under the age of 16 dangerous?",
+              "responses": [ "Yes, pregnancy in adolescents is considered high risk and alterations or diseases such as hypertension, anemia, nutritional complications, low birth weight of the fetus at birth, premature birth and complications during childbirth are more frequent in them. When the mother is an adolescent, it is more common for the newborn to become ill or die during the first year of life." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Whose responsibility is it to prevent a pregnancy, the man or the woman?",
+              "responses": [ "The responsibility belongs to both because it is a situation that is part of the life project of each one. It must be taken into account that the protection belongs to both." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What are wet dreams?",
+              "responses": [ "Also called erotic dreams, they are sensations of arousal during sleep. They occur in both men and women. In the case of men, they can cause an ejaculation. In women, an increase in lubrication in the vagina. They do not have nothing to do with fidelity to the couple, nor with the beliefs or values ​​of the person, since they are involuntary and unconscious." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "At what age does semen appear?",
+              "responses": [ "Semen appears during puberty between approximately 11 and 13 years of age. It is a fluid that contains spermatozoa and is expelled from the penis during ejaculation." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What is the normal size of the penis?",
+              "responses": [ "The size of the penis in a flaccid relaxed state ranges from three to four inches. The size of the penis in an erect state can be between 12 and 17 centimeters. It is important to note that when the penis is erect it can bend or triple its size, although this depends on the race and the physical structure of the man." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Is the size of the penis important to give pleasure to the partner?",
+              "responses": [ "This is one of the myths that accompanies many men and women. Neither the size of the penis, nor the shape of the penis, nor penetration are the most important or the most pleasurable thing about sexual intercourse." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What is the clitoris?",
+              "responses": [ "Very sensitive sexual organ in women, located in the vulva. The clitoris in women is the equivalent of the penis in men, which when stimulated increases in volume and produces sexual pleasure because it has many nerve endings The stimulation of the clitoris must be accompanied by the sexual desire, the disposition and the will of the woman so that the sexual activity is pleasant and pleasant." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What is masturbation?",
+              "responses": [ "It is the personal stimulation of the genitals to obtain arousal and sexual pleasure. Since pleasure is a right of all people, masturbation is not an exclusive practice for men, women also do it." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Do people feel pleasure when they have anal sex?",
+              "responses": [ "The anal zone depends on the same embryological structures of the genital organs at the time of the formation of the fetus. This explains why men and women can have orgasms in anal sex. So that there is mutual enjoyment , the couple must be free of pressure, enjoy adequate foreplay and use a condom and lubricant." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "What is rimming?",
+              "responses": [ "It is the contact of the lips with the orifice of the anus, generating sensations of excitement and pleasure in the couple. Some people do it within an erotic game, of sensuality, of knowledge of oneself and of the other." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Why can you also get a Sexually Transmitted Infection (STI) through anal and oral sex?",
+              "responses": [ "The anus, vagina, and mouth are mucous membranes, tissues that are very sensitive to infection, disease, and/or injury. If the genitals of the person with whom you are having oral or anal intercourse are infected with some virus or bacteria will pass them on to your partner. The only way to prevent a Sexually Transmitted Infection is with the proper use of condoms in all sexual relations, be it vaginal, oral or anal." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Can you have oral and anal sex?",
+              "responses": [ "Yes, that is a personal and couple's decision. If the person decides to practice them, it is advisable to always use a condom to prevent Sexually Transmitted Infections (STIs) including HIV/AIDS." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Does masturbation cause infertility?",
+              "responses": [ "It has nothing to do with sterility." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        },{  
+          "tag": "Sexuality Questions",
+       
+              "patterns": "Is it true that applying Vaseline to a man's penis prevents a woman from feeling pain during sexual intercourse?",
+              "responses": [ "Not true, Vaseline should never be applied to the genitals because it can cause infections. If you want to use a substance to facilitate lubrication, it is recommended to use water-based lubricants that are made exclusively for sexual activities." ],
+              "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+        }
+        ]
+      }
+  
